@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/ee106s25/ee106s25.egg-info
+writing ../../build/ee106s25/ee106s25.egg-info/PKG-INFO
+writing dependency_links to ../../build/ee106s25/ee106s25.egg-info/dependency_links.txt
+writing entry points to ../../build/ee106s25/ee106s25.egg-info/entry_points.txt
+writing requirements to ../../build/ee106s25/ee106s25.egg-info/requires.txt
+writing top-level names to ../../build/ee106s25/ee106s25.egg-info/top_level.txt
+writing manifest file '../../build/ee106s25/ee106s25.egg-info/SOURCES.txt'
+reading manifest file '../../build/ee106s25/ee106s25.egg-info/SOURCES.txt'
+writing manifest file '../../build/ee106s25/ee106s25.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vonkovi/ros2_humble/build/ee106s25/build
+creating /home/vonkovi/ros2_humble/build/ee106s25/build/lib
+creating /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25
+copying ee106s25/subscriber.py -> /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25
+copying ee106s25/publisher.py -> /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25
+copying ee106s25/__init__.py -> /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25
+running install
+running install_lib
+creating /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25
+copying /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25/subscriber.py -> /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25
+copying /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25/publisher.py -> /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25
+copying /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25/__init__.py -> /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25
+byte-compiling /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25/subscriber.py to subscriber.cpython-312.pyc
+byte-compiling /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25/publisher.py to publisher.cpython-312.pyc
+byte-compiling /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/vonkovi/ros2_humble/install/ee106s25/share/ament_index
+creating /home/vonkovi/ros2_humble/install/ee106s25/share/ament_index/resource_index
+creating /home/vonkovi/ros2_humble/install/ee106s25/share/ament_index/resource_index/packages
+copying resource/ee106s25 -> /home/vonkovi/ros2_humble/install/ee106s25/share/ament_index/resource_index/packages
+copying package.xml -> /home/vonkovi/ros2_humble/install/ee106s25/share/ee106s25
+creating /home/vonkovi/ros2_humble/install/ee106s25/share/ee106s25/msg
+copying msg/EE106lab_custom_new.msg -> /home/vonkovi/ros2_humble/install/ee106s25/share/ee106s25/msg
+copying msg/EE106labCustom.msg -> /home/vonkovi/ros2_humble/install/ee106s25/share/ee106s25/msg
+running install_egg_info
+Copying ../../build/ee106s25/ee106s25.egg-info to /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25-0.0.0-py3.12.egg-info
+running install_scripts
+Installing publisher script to /home/vonkovi/ros2_humble/install/ee106s25/lib/ee106s25
+Installing subscriber script to /home/vonkovi/ros2_humble/install/ee106s25/lib/ee106s25
+writing list of installed files to '/home/vonkovi/ros2_humble/build/ee106s25/install.log'

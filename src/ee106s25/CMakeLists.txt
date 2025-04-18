@@ -12,7 +12,8 @@ find_package(rosidl_default_generators REQUIRED)
 
 # Message file generation
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/EE106labCustom.msg"
+  "msg/EE106lab_custom.msg"
+  "msg/EE106lab_custom_new.msg"
   DEPENDENCIES std_msgs
 )
 
@@ -30,4 +31,3 @@ install(PROGRAMS
 )
 
 ament_package()
-

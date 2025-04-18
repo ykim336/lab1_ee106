@@ -1,0 +1,44 @@
+[0.499s] Invoking command in '/home/vonkovi/ros2_humble/src/ee106s25': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vonkovi/ros2_humble/build/ee106s25/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ee106s25 build --build-base /home/vonkovi/ros2_humble/build/ee106s25/build install --record /home/vonkovi/ros2_humble/build/ee106s25/install.log --single-version-externally-managed install_data
+[0.663s] running egg_info
+[0.663s] creating ../../build/ee106s25/ee106s25.egg-info
+[0.674s] writing ../../build/ee106s25/ee106s25.egg-info/PKG-INFO
+[0.674s] writing dependency_links to ../../build/ee106s25/ee106s25.egg-info/dependency_links.txt
+[0.674s] writing entry points to ../../build/ee106s25/ee106s25.egg-info/entry_points.txt
+[0.674s] writing requirements to ../../build/ee106s25/ee106s25.egg-info/requires.txt
+[0.674s] writing top-level names to ../../build/ee106s25/ee106s25.egg-info/top_level.txt
+[0.674s] writing manifest file '../../build/ee106s25/ee106s25.egg-info/SOURCES.txt'
+[0.695s] reading manifest file '../../build/ee106s25/ee106s25.egg-info/SOURCES.txt'
+[0.696s] writing manifest file '../../build/ee106s25/ee106s25.egg-info/SOURCES.txt'
+[0.696s] running build
+[0.696s] running build_py
+[0.696s] creating /home/vonkovi/ros2_humble/build/ee106s25/build
+[0.696s] creating /home/vonkovi/ros2_humble/build/ee106s25/build/lib
+[0.696s] creating /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25
+[0.696s] copying ee106s25/subscriber.py -> /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25
+[0.696s] copying ee106s25/publisher.py -> /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25
+[0.696s] copying ee106s25/__init__.py -> /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25
+[0.696s] running install
+[0.701s] running install_lib
+[0.711s] creating /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25
+[0.712s] copying /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25/subscriber.py -> /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25
+[0.712s] copying /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25/publisher.py -> /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25
+[0.712s] copying /home/vonkovi/ros2_humble/build/ee106s25/build/lib/ee106s25/__init__.py -> /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25
+[0.712s] byte-compiling /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25/subscriber.py to subscriber.cpython-312.pyc
+[0.712s] byte-compiling /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25/publisher.py to publisher.cpython-312.pyc
+[0.713s] byte-compiling /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25/__init__.py to __init__.cpython-312.pyc
+[0.713s] running install_data
+[0.713s] creating /home/vonkovi/ros2_humble/install/ee106s25/share/ament_index
+[0.713s] creating /home/vonkovi/ros2_humble/install/ee106s25/share/ament_index/resource_index
+[0.713s] creating /home/vonkovi/ros2_humble/install/ee106s25/share/ament_index/resource_index/packages
+[0.713s] copying resource/ee106s25 -> /home/vonkovi/ros2_humble/install/ee106s25/share/ament_index/resource_index/packages
+[0.713s] copying package.xml -> /home/vonkovi/ros2_humble/install/ee106s25/share/ee106s25
+[0.713s] creating /home/vonkovi/ros2_humble/install/ee106s25/share/ee106s25/msg
+[0.714s] copying msg/EE106lab_custom_new.msg -> /home/vonkovi/ros2_humble/install/ee106s25/share/ee106s25/msg
+[0.714s] copying msg/EE106labCustom.msg -> /home/vonkovi/ros2_humble/install/ee106s25/share/ee106s25/msg
+[0.714s] running install_egg_info
+[0.725s] Copying ../../build/ee106s25/ee106s25.egg-info to /home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages/ee106s25-0.0.0-py3.12.egg-info
+[0.725s] running install_scripts
+[0.802s] Installing publisher script to /home/vonkovi/ros2_humble/install/ee106s25/lib/ee106s25
+[0.802s] Installing subscriber script to /home/vonkovi/ros2_humble/install/ee106s25/lib/ee106s25
+[0.803s] writing list of installed files to '/home/vonkovi/ros2_humble/build/ee106s25/install.log'
+[0.820s] Invoked command in '/home/vonkovi/ros2_humble/src/ee106s25' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vonkovi/ros2_humble/build/ee106s25/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vonkovi/ros2_humble/install/ee106s25/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ee106s25 build --build-base /home/vonkovi/ros2_humble/build/ee106s25/build install --record /home/vonkovi/ros2_humble/build/ee106s25/install.log --single-version-externally-managed install_data

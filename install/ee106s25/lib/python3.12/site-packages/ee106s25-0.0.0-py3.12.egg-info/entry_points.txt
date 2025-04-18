@@ -1,0 +1,3 @@
+[console_scripts]
+publisher = ee106s25.publisher:main
+subscriber = ee106s25.subscriber:main
